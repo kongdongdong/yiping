@@ -12,10 +12,13 @@ public final class R {
     }
     public static final class color {
         public static final int black=0x7f040000;
-        public static final int gray_text_selector=0x7f040003;
-        public static final int orange_text_selector=0x7f040004;
-        public static final int tabs_text_selector=0x7f040005;
-        public static final int title_bg=0x7f040002;
+        public static final int fragment_one_bg=0x7f040005;
+        public static final int gray_text_selector=0x7f040006;
+        public static final int one_blue=0x7f040004;
+        public static final int orange_text_selector=0x7f040007;
+        public static final int red=0x7f040002;
+        public static final int tabs_text_selector=0x7f040008;
+        public static final int title_bg=0x7f040003;
         public static final int writer=0x7f040001;
     }
     public static final class dimen {
@@ -34,19 +37,31 @@ public final class R {
         public static final int text_size_20=0x7f05000a;
     }
     public static final class drawable {
-        public static final int common_hearder_sharp_left=0x7f020000;
-        public static final int common_menu=0x7f020001;
-        public static final int common_menu_cur=0x7f020002;
-        public static final int common_set_btn=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int text_bg_selector=0x7f020005;
+        public static final int apply_search_dropdown=0x7f020000;
+        public static final int common_hearder_sharp_left=0x7f020001;
+        public static final int common_menu=0x7f020002;
+        public static final int common_menu_cur=0x7f020003;
+        public static final int common_set_btn=0x7f020004;
+        public static final int common_sharp_right=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int index_sharp_right=0x7f020007;
+        public static final int star=0x7f020008;
+        public static final int text_bg=0x7f020009;
+        public static final int text_bg_selector=0x7f02000a;
+        public static final int text_bg_two=0x7f02000b;
     }
     public static final class id {
-        public static final int iv_title_left=0x7f070002;
-        public static final int iv_title_right=0x7f070004;
+        public static final int iv_index=0x7f070006;
+        public static final int iv_title_left=0x7f070003;
+        public static final int iv_title_right=0x7f070005;
+        public static final int lv_listview=0x7f070002;
         public static final int main_tabs_layout=0x7f070001;
         public static final int main_viewpager=0x7f070000;
-        public static final int tv_title_center=0x7f070003;
+        public static final int tv_arrer=0x7f07000a;
+        public static final int tv_cp_name=0x7f070007;
+        public static final int tv_group_name=0x7f070008;
+        public static final int tv_salary=0x7f070009;
+        public static final int tv_title_center=0x7f070004;
     }
     public static final class layout {
         public static final int activity_login=0x7f030000;
@@ -58,6 +73,13 @@ public final class R {
         public static final int fragment_title_one=0x7f030006;
         public static final int fragment_title_two=0x7f030007;
         public static final int fragment_two=0x7f030008;
+        public static final int item_fragmentone_five=0x7f030009;
+        public static final int item_fragmentone_fore=0x7f03000a;
+        public static final int item_fragmentone_one=0x7f03000b;
+        public static final int item_fragmentone_three=0x7f03000c;
+        public static final int item_fragmentone_two=0x7f03000d;
+        public static final int item_fragmenttwo=0x7f03000e;
+        public static final int item_fragmenttwo_head=0x7f03000f;
     }
     public static final class string {
         public static final int action_settings=0x7f060002;

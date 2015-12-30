@@ -4,10 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
      <include layout="@layout/fragment_title_two"/>
-    <TextView 
+     
+     <include layout="@layout/item_fragmenttwo_head"/>
+     
+    <ListView 
+        android:id="@+id/lv_listview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:text="two"
+        
         />
 
 </LinearLayout>

@@ -62,7 +62,7 @@ public class MainActivity extends RoboFragmentActivity {
             main_tabs_layout.getChildAt(i).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                	main_viewpager.setCurrentItem(finalI);
+                	main_viewpager.setCurrentItem(finalI,false);
                 }
             });
         }
