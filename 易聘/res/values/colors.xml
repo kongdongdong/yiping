@@ -6,6 +6,6 @@
     <color name="title_bg">#7E6B5A</color>
     
     <color name="one_blue">#618A9C</color>
-    
+    <color name="gray">#DDDDDD</color>
     <color name="fragment_one_bg">#DDE5E8</color>
 </resources>

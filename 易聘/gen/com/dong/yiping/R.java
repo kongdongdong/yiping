@@ -12,12 +12,13 @@ public final class R {
     }
     public static final class color {
         public static final int black=0x7f040000;
-        public static final int fragment_one_bg=0x7f040005;
-        public static final int gray_text_selector=0x7f040006;
+        public static final int fragment_one_bg=0x7f040006;
+        public static final int gray=0x7f040005;
+        public static final int gray_text_selector=0x7f040007;
         public static final int one_blue=0x7f040004;
-        public static final int orange_text_selector=0x7f040007;
+        public static final int orange_text_selector=0x7f040008;
         public static final int red=0x7f040002;
-        public static final int tabs_text_selector=0x7f040008;
+        public static final int tabs_text_selector=0x7f040009;
         public static final int title_bg=0x7f040003;
         public static final int writer=0x7f040001;
     }
@@ -51,17 +52,36 @@ public final class R {
         public static final int text_bg_two=0x7f02000b;
     }
     public static final class id {
-        public static final int iv_index=0x7f070006;
-        public static final int iv_title_left=0x7f070003;
-        public static final int iv_title_right=0x7f070005;
-        public static final int lv_listview=0x7f070002;
+        public static final int cb_regist_qiye=0x7f070005;
+        public static final int cb_regist_stu=0x7f070003;
+        public static final int iv_index=0x7f070019;
+        public static final int iv_title_left=0x7f070016;
+        public static final int iv_title_right=0x7f070018;
+        public static final int ll_regist_address=0x7f07000d;
+        public static final int ll_regist_school=0x7f07000f;
+        public static final int ll_regist_typename=0x7f070010;
+        public static final int lv_listview=0x7f070015;
         public static final int main_tabs_layout=0x7f070001;
         public static final int main_viewpager=0x7f070000;
-        public static final int tv_arrer=0x7f07000a;
-        public static final int tv_cp_name=0x7f070007;
-        public static final int tv_group_name=0x7f070008;
-        public static final int tv_salary=0x7f070009;
-        public static final int tv_title_center=0x7f070004;
+        public static final int sp_1=0x7f070011;
+        public static final int sp_2=0x7f070012;
+        public static final int sp_3=0x7f070013;
+        public static final int tv_arrer=0x7f07001d;
+        public static final int tv_cp_name=0x7f07001a;
+        public static final int tv_group_name=0x7f07001b;
+        public static final int tv_qiye=0x7f070004;
+        public static final int tv_regist_address=0x7f07000e;
+        public static final int tv_regist_card_num=0x7f070008;
+        public static final int tv_regist_email=0x7f07000c;
+        public static final int tv_regist_phonenum=0x7f07000b;
+        public static final int tv_regist_pwd=0x7f070009;
+        public static final int tv_regist_pwd_confirm=0x7f07000a;
+        public static final int tv_regist_stunum=0x7f070014;
+        public static final int tv_regist_type=0x7f070006;
+        public static final int tv_regist_typename=0x7f070007;
+        public static final int tv_salary=0x7f07001c;
+        public static final int tv_stu=0x7f070002;
+        public static final int tv_title_center=0x7f070017;
     }
     public static final class layout {
         public static final int activity_login=0x7f030000;
