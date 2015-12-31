@@ -25,6 +25,9 @@ public class MainActivity extends RoboFragmentActivity {
 
 	@InjectView(R.id.main_viewpager) ControlScrollViewPager main_viewpager;
 	@InjectView(R.id.main_tabs_layout) LinearLayout main_tabs_layout;
+	@InjectView(R.id.tv_title_center) TextView tv_title_center;
+	@InjectView(R.id.ll_title_center) LinearLayout ll_title_center;
+	
 	private boolean exiting = false;
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -32,7 +35,10 @@ public class MainActivity extends RoboFragmentActivity {
 		initView();
 		setListener();
 	}
+	
 	private void initView(){
+		
+		
 		main_viewpager = (ControlScrollViewPager)findViewById(R.id.main_viewpager);
         ArrayList fragmentList = new ArrayList<Fragment>();
         fragmentList.add(new OneFragment());
@@ -54,6 +60,7 @@ public class MainActivity extends RoboFragmentActivity {
                 textView.setSelected(false);
             }
         }
+        
     }
 	private void setListener(){
 		main_viewpager.setOnPageChangeListener(new MainOnPageChangeListener());
@@ -63,10 +70,27 @@ public class MainActivity extends RoboFragmentActivity {
                 @Override
                 public void onClick(View v) {
                 	main_viewpager.setCurrentItem(finalI,false);
+                	changeTitle(finalI);
                 }
             });
         }
     }
+	private void changeTitle(int index){
+		if(index==0){
+    		tv_title_center.setVisibility(View.VISIBLE);
+    		ll_title_center.setVisibility(View.GONE);
+    		tv_title_center.setText("主页");
+        }
+        if(index==1 && index==2){
+    		tv_title_center.setVisibility(View.GONE);
+    		ll_title_center.setVisibility(View.VISIBLE);
+        }
+        if(index==0){
+    		tv_title_center.setVisibility(View.VISIBLE);
+    		ll_title_center.setVisibility(View.GONE);
+    		tv_title_center.setText("个人中心");
+        }
+	}
 	private class MainOnPageChangeListener implements ViewPager.OnPageChangeListener {
 
         @Override

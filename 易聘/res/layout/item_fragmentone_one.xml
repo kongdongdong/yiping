@@ -16,7 +16,7 @@
         />
 	<TextView 
 	    android:textColor="@color/writer"
-	    android:background="#F18101"
+	    android:background="@color/yello"
 	    android:padding="5dp"
 	    android:gravity="center"
 	    android:text="我要招聘"

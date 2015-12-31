@@ -13,7 +13,7 @@
         android:layout_marginLeft="50dp"
         android:padding="5dp"
         android:textColor="@color/writer"
-        android:text="明星企业推荐"
+        android:text="明星学生推荐"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
